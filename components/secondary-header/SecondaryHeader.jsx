@@ -155,7 +155,7 @@ const SecondaryHeader = () => {
     if (type === 'link') {
       router.push(`/category/${key}`)
     } else if (type === 'about') {
-      router.push('/about-us')
+      router.push('/about')
     } else if (type === 'contact') {
       router.push('/contact')
     }
@@ -416,7 +416,7 @@ const SecondaryHeader = () => {
                     variant="ghost"
                     className={styles.shop_menu}
                     style={{ cursor: 'pointer' }}
-                    onClick={() => router.push('/about-us')}
+                    onClick={() => router.push('/about')}
                   >
                     About
                   </div>
@@ -473,7 +473,7 @@ const SecondaryHeader = () => {
                     )}
                   </div>
                 </li>
-                <li onClick={(e) => handleMobileLinks(e, '/about-us', 'about')}>
+                <li onClick={(e) => handleMobileLinks(e, '/about', 'about')}>
                   About
                 </li>
                 <li
