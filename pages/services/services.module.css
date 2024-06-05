@@ -1,0 +1,133 @@
+.Effortlessmanagement{
+    background-image: url(../../assets/effortlessbg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    border-radius: 30px;
+    color: #fff;
+    margin: 80px 0px;
+}
+.light_bg{
+    border-radius: 30px;
+    background-color: rgb(250, 250, 250);
+    margin-top: 26px;
+    padding: 38px 23px 38px 29px;
+}
+
+.purple_bg{
+    border-radius: 30px;
+    border: 1px solid rgb(141, 67, 153);
+    background-color: rgba(141, 67, 153, 0.15);
+    margin-top: 22px;
+    padding: 35px 23px 35px 29px;
+}
+.PdfImg{
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+}
+.unorderlist li span{
+width: fit-content !important;
+
+}
+.effortless_list li span{
+    width: 20px !important;
+    height: 20px !important;
+}
+.light_bg p, .purple_bg p{
+    color: rgba(17, 17, 17, 0.8);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+}
+
+.Effortlessmanagement p{
+    line-height: 30px;
+    height: auto;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+}
+.Effortlessmanagement h3{
+    line-height: normal;
+    font-size: 22px;
+    font-family: Poppins, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.Effortlessmanagement p .list_content{
+    line-height: 28px;
+    height: auto;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 100%;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+.effortless_list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* .shipping_swag */
+.shipping_swag{
+    margin: 80px 0px;
+}
+.ShippingSwag{
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 4px 64px 0px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+}
+.ShippingSwag p{
+    color: rgb(17, 17, 17);
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0.18px;
+    margin-top: 20px;
+}
+
+.Resources_sec{
+    background-image: url(../../assets/ResourcesBg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 0px;
+    color: #fff;
+}
+.subheading{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 133.38%;
+    letter-spacing: 0.22px;
+    margin-top: 0px;
+}
+/* responsive */
+@media (max-width:767px){
+    .Effortlessmanagement{
+        padding:30px 20px;
+        border-radius: 20px;
+        margin: 50px 0px;
+    }
+    .subheading{
+        font-size: 18px;
+    }
+    .shipping_swag{
+        margin: 50px 0px;
+    }
+    .ShippingSwag{
+        border-radius: 20px;
+        padding: 30px 20px;
+    }
+    .Resources_sec{
+        padding: 40px 0px;
+    }
+}

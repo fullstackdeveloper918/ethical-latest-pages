@@ -1,0 +1,47 @@
+
+  .button{
+    width: 100%;
+  background-color: #a2d061;
+  color: white;
+  font-size: 18px;
+  min-height: 40px;
+  padding: 5px 10px;
+  border-radius: 39px;
+  font-weight: 600;
+  transition: .5s all ease-in-out;
+  border: 1px solid #fff;
+  }
+
+  .cardDiv{
+    background-color: #fff;
+    padding: 30px;
+  }
+
+  .btnSync{
+    background-color: #a2d061;
+    color: #fff;
+    padding: 10px 70px;
+    align-items: center;
+    border-radius: 8px;
+    display: inline-block;
+    transition: all .3s ease-in;
+    border: 1px solid #a2d061;;
+  }
+.btnSyncWrapper{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.btnSync:hover{
+  background-color: transparent;
+  color: #a2d061;
+}
+.card{
+border-radius: 12px;
+}
+
+.SyncWrapper{
+  display: flex;
+  align-items: center;
+  height: 70vh;
+}

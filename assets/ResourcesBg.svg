@@ -1,0 +1,16 @@
+<svg width="2934" height="1488" viewBox="0 0 2934 1488" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="2934" height="1488" fill="#F65275"/>
+<mask id="mask0_5376_840" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="2934" height="1488">
+<path d="M0 0H2934V1487.6H0V0Z" fill="#8D4399"/>
+</mask>
+<g mask="url(#mask0_5376_840)">
+<circle cx="2933.72" cy="1367.24" r="127.666" transform="rotate(-23.3757 2933.72 1367.24)" fill="white" fill-opacity="0.2"/>
+<circle cx="2823.09" cy="1468.16" r="127.666" transform="rotate(-23.3757 2823.09 1468.16)" fill="white" fill-opacity="0.2"/>
+<circle cx="1184.77" cy="102.633" r="40.6209" fill="white" fill-opacity="0.2"/>
+<circle cx="1224.24" cy="123.523" r="40.6209" fill="white" fill-opacity="0.2"/>
+<circle cx="27.659" cy="-5.30235" r="111.417" fill="white" fill-opacity="0.2"/>
+<circle cx="-28.0497" cy="127.006" r="111.417" fill="white" fill-opacity="0.2"/>
+<circle cx="712.412" cy="579.638" r="30.1755" fill="white" fill-opacity="0.2"/>
+<circle cx="359.59" cy="1501.15" r="30.1755" fill="white" fill-opacity="0.2"/>
+</g>
+</svg>

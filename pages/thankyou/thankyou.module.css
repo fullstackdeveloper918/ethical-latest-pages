@@ -1,0 +1,147 @@
+.thankyou_banner{
+    background-image: url(/_next/static/media/kindObusiness.8617c702.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    width: 100%;
+    max-width: 98%;
+    margin: 10px auto;
+    border-radius: 30px;
+}
+.thankyou_banner h1{
+    line-height: 74px;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    width: 100%;
+    max-width: 480px;
+}
+.subheading{
+    margin-top: 20px;
+    line-height: 34px;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    letter-spacing: 0.22px;
+    font-weight: 600;
+}
+.banner_text{
+    margin-top: 20px;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    letter-spacing: 0.22px;
+    font-weight: 400;
+}
+/* .Img_content */
+.gettoKnow{
+    margin: 60px 0px;
+}
+.Img_content{
+    border-radius: 30px;
+    border: 1px solid rgb(241, 241, 241);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding: 45px 15px 45px;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    transition: .5s all;
+}
+.Icon_thankyou{
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 16px 0px #a2d0613d;
+    margin: 0px auto;
+}
+.Img_content:hover{
+    box-shadow: rgba(0, 0, 0, 0.06) 1px 1px 64px 0px;
+    background-color: rgb(255, 255, 255);
+}
+.Img_content h3{
+    color: rgb(17, 17, 17);
+    font-family: Poppins, -apple-system, Roboto, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+.Img_content p{
+    color: rgb(88, 88, 88);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.16px;
+    width: 100%;
+    max-width: 90%;
+    margin: 0px auto;
+}
+.thankyou_div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+
+
+
+
+@media (max-width:1440px){
+    .thankyou_banner h1{
+        line-height: 54px;
+        font-size: 42px;
+        max-width: 280px;
+    }
+}
+@media (max-width:991px){
+    .thankyou_banner h1{
+        line-height: 44px;
+        width: 100%;
+        max-width: 100%;
+        font-size: 32px;
+        text-align: center;
+    }
+    .thankyou_div{
+        grid-template-columns: 1fr 1fr;
+    }
+    .thankyou_banner{
+        padding: 50px 20px;
+        max-width: 95%;
+    }
+    .subheading{
+        margin-top: 20px;
+        line-height: 30px;
+        font-size: 20px;
+    }
+    .banner_text{
+        margin-top: 10px;
+        line-height: 26px;
+        font-size: 16px;
+    }
+    .thanksImg{
+        max-width: 240px;
+        margin: 0px auto;
+    }
+}
+@media (max-width:767px){
+    .Icon_thankyou{
+        width: 55px;
+        height: 55px;
+        padding: 12px;
+    }
+}
+@media (max-width:576px){
+    .thankyou_div{
+        grid-template-columns: 1fr;
+    }
+}
