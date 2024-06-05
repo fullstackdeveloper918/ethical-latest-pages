@@ -1,25 +1,22 @@
 import React, { useState, useEffect } from 'react'
-import PrimaryHeader from '../../components/primary-header/PrimaryHeader'
-import SecondaryHeader from '../../components/secondary-header/SecondaryHeader'
-import HeroSection from '../../components/hero-section/HeroSection'
-import SliderSection from '../../components/slider/SliderSection'
-import Footer from '../../components/footer/Footer'
-import AdditionalServices from '../../components/HomeComponents/Additional_Services/Additional_services'
-import WhatWeDo from '../../components/HomeComponents/what_weDo/what_weDo'
-import ExploreCollections from '../../components/HomeComponents/ExploreCollection/ExploreCollection'
-import Handpicked from '../../components/HomeComponents/Handpicked/handpicked'
-import Tesimoanial from '../../components/HomeComponents/Testimonial/testimonial'
+import PrimaryHeader from '../components/primary-header/PrimaryHeader'
+import SecondaryHeader from '../components/secondary-header/SecondaryHeader'
+import HeroSection from '../components/hero-section/HeroSection'
+import SliderSection from '../components/slider/SliderSection'
+import Footer from '../components/footer/Footer'
+import AdditionalServices from '../components/HomeComponents/Additional_Services/Additional_services'
+import WhatWeDo from '../components/HomeComponents/what_weDo/what_weDo'
+import ExploreCollections from '../components/HomeComponents/ExploreCollection/ExploreCollection'
+import Handpicked from '../components/HomeComponents/Handpicked/handpicked'
+import Tesimoanial from '../components/HomeComponents/Testimonial/testimonial'
 // import Styles from '../../styles/common.module.css'
-import cybersifyApi from '../../utils/cybersifyApi'
+import cybersifyApi from '../utils/cybersifyApi'
 // import Certified from '../../components/certified-swag-section/certified'
-import { useDispatch } from "react-redux";
-import useFetch from "../../lib/useFetch";
-import { setPage as setPageRedux } from '../../redux-setup/pageSlice'
-import BlogCard from "../../components/admin/BlogCard/BlogCard";
-import Styles from '../../components/admin/AllBlogs/AllBlogs.module.css'
-import Certified from '../../components/certified-swag-section/certified'
+import BlogCard from "../components/admin/BlogCard/BlogCard";
+import Styles from '../components/admin/AllBlogs/AllBlogs.module.css'
+import Certified from '../components/certified-swag-section/certified'
 // import Styles from '../../components/admin/BlogCard/blog_card.module.css'
-import images from '../../constants/images';
+import images from '../constants/images';
 
 import { Subtitles } from 'lucide-react'
 import Link from 'next/link'
