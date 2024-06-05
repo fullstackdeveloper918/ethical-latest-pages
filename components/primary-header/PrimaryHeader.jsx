@@ -196,8 +196,8 @@ const PrimaryHeader = () => {
                   className={styles.arrowDown}
                 />
               </div>
-              <a href="tel:1-877-206-6998" style={{ cursor: 'pointer' }}>
-                1-877-256-6998
+              <a href="tel:1-877-256-6998" style={{ cursor: 'pointer' }}>
+              1 (877) 256-6998
               </a>
             </div>
             <div
@@ -326,7 +326,7 @@ const PrimaryHeader = () => {
       {showOffer && (
         <div className={styles.offer_wrapper}>
           <ul role="menu" tabindex="-1">
-            <li onClick={() => handleOffer('about-us')}>
+            <li onClick={() => handleOffer('about')}>
               <div className={styles.hover_border}></div>
               <span className={styles.bold_text}>About Us</span>
             </li>
@@ -336,7 +336,7 @@ const PrimaryHeader = () => {
               <span className={styles.bold_text}>How to Order</span>
             </li>
 
-            <li onClick={() => handleOffer('services')}>
+            <li onClick={() => handleOffer('service')}>
               <div className={styles.hover_border}></div>
               <span className={styles.bold_text}>Services</span>
             </li>

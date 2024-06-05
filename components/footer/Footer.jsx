@@ -143,7 +143,7 @@ const Footer = () => {
               <span
                 className={styles.footer_li}
                 style={{ cursor: 'pointer' }}
-                onClick={() => router.push('/about-us')}
+                onClick={() => router.push('/about')}
               >
                 About
               </span>
@@ -237,15 +237,11 @@ const Footer = () => {
                 </Link>
               </div>
               <div>
-                <a className={styles.footer_li} href="tel:1-877-206-6998">
-                  1-877-206-6998
+                <a className={styles.footer_li} href="tel:1-877-256-6998">
+                1 (877) 256-6998
                 </a>
               </div>
-              <div>
-                <a className={styles.footer_li} href="tel:1-902-500-1086">
-                  1-902-500-1086
-                </a>
-              </div>
+              
             </div>
           </div>
           <div className={styles.container_column_4}>
