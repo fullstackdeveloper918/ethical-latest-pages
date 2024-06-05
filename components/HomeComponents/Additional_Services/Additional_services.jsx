@@ -74,7 +74,7 @@ const Additional_services=({data})=> {
         <AdditionalCard imgUrl={images.fullfillmentImg} heading={"Complete Swag Fulfillment Solutions"} paragraph={"Ethical Swag provides a suite of turn-key services designed with convenience in mind to streamline your swag management process and elevate your brand presence. "} /> */}
       
       </Carousel>
-      <Link href='/services'>
+      <Link href='/service'>
       <button className='btn_global'>Learn More</button>
       </Link>
       </div>
