@@ -12,7 +12,7 @@ import InnerBanner from '../../components/InnerBanner/InnerBanner'
 import Footer from '../../components/footer/Footer'
 import { FiPlusCircle } from "react-icons/fi";
 import { LuMinusCircle } from "react-icons/lu";
-import styles from '../faq_new/Faq.module.css'
+import styles from '../faq-new/Faq.module.css'
 
 export default function AccordionExpandIcon() {
   const baseUrl = "https://ethical3.s3.ca-central-1.amazonaws.com/images/"
